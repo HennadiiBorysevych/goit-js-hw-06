@@ -17,7 +17,7 @@ const galleryList = document.querySelector(".gallery");
 
 const makeImagesListMarkup = ({url, alt}) => {
   return `
-          <li class="gallery__item" ><img src="${url}" alt="${alt}" width="640" ></li>
+          <li class="gallery__item" ><img src="${url}" alt="${alt}" width="320" ></li>
         `
 }
 
