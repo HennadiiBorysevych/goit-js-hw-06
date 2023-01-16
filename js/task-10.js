@@ -6,7 +6,6 @@ const collectionNumber = document.querySelector("input[type=number]")
 const newBoxes = document.querySelector("#boxes")
 const boxesCreationBtn = document.querySelector("button[data-create]")
 const boxesDemolishBtn = document.querySelector("button[data-destroy]")
-// console.log(collectionNumber);
 
 const createBoxes = (amount) => {
   collectionNumber.value = amount;
@@ -20,7 +19,6 @@ const createBoxes = (amount) => {
   return divElements.join("");
 }
 
-// console.log(boxesCreationBtn);
 boxesCreationBtn.addEventListener("click", (event) => {
 newBoxes.insertAdjacentHTML("afterbegin",createBoxes(Number(collectionNumber.value)))
 } )

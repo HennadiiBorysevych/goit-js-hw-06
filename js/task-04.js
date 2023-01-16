@@ -11,6 +11,6 @@ decreaseByOne.addEventListener("click", () => {
     counter.textContent = counterValue;
 } );
 increaseByOne.addEventListener("click", () => {
-        counterValue += 1;
+    counterValue += 1;
     counter.textContent = counterValue;
 });
