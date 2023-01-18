@@ -10,6 +10,7 @@ const bodyBackground = document.body;
 
 colorChangeBtn.addEventListener("click", () => {
   const color = getRandomHexColor(); 
+  
   bodyBackground.style.backgroundColor = color;
   currentColor.textContent = color;
 })
